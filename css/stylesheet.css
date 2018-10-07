@@ -1,0 +1,66 @@
+.background {
+	background-image: url("Pictures/1.jpg");
+	
+	height: 100%;
+	
+	background-size: 1325px 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+	text-align: center;
+}
+
+nav {
+	margin: 40px;
+	text-align: justify;
+}
+
+body {
+    height:100%;
+}
+
+.button{
+	background:#bec3c7;
+	color:#000000;
+        text-decoration:none;
+	box-shadow: 0 6px 0 #a3aaaf;
+        padding: 15px 32px;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+.button:hover{
+	background:#d0d5d9;	
+}
+.button:active {
+	background:#b0b6bb;	
+}
+
+.table1  {
+    margin: 200px;
+}
+
+
+footer {
+	color: white;
+	position: absolute;
+	bottom:0;
+        left:0;
+}
+
+#facebook_logo {
+        width: 100%;
+	height: 0;
+        padding: 20px;
+}
+
+#footerP1 {
+    color: #000000;
+}
