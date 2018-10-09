@@ -1,0 +1,95 @@
+.background {
+    background-image: url("Pictures/1.jpg");
+
+    height: 100%;
+
+    background-size: 1325px 350px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-weight: bold;
+    color: #FFFF99;
+    margin-left: 20px;
+    text-align: center;
+}
+
+nav {
+    margin: -43px;
+    text-align: justify;
+}
+
+body {
+    height:100%;
+}
+
+div {
+    width: 271px;
+    height: 353px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    list-style: none;
+    background:#bec3c7;
+    color:#000000;
+    text-decoration:none;
+    box-shadow: 0 6px 0 #a3aaaf;
+    padding: 18px 40px;
+    font-size: 20px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button:hover{
+    background:#d0d5d9;	
+}
+.button:active {
+    background:#b0b6bb;	
+}
+
+.row {
+    position:relative;
+    top: 100px;
+    left: 55px;
+    right: -400px;
+    bottom: -191px;
+}
+
+.single-element{
+    width: 30%;
+    position:relative;
+    top: 100px;
+    left: 55px;
+    right: -400px;
+    bottom: -191px;
+}
+
+.table1  {
+    position: fixed;
+    top: 191px;
+    left: 55px;
+    right: -400px;
+    bottom: -191px;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
+#facebook_logo {
+    width: 100%;
+    height: 0;
+    padding: 20px;
+}
+
+#footerP1 {
+    color: #000000;
+}
