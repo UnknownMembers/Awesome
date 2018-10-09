@@ -6,11 +6,6 @@
     background-size: 1325px 350px;
     background-position: center;
     background-repeat: no-repeat;
-    top: 191px;
-    left: 25px;
-    right: -400px;
-    bottom: -191px;
-
 }
 
 h1 {
@@ -34,7 +29,12 @@ div {
     height: 353px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .button{
+    list-style: none;
     background:#bec3c7;
     color:#000000;
     text-decoration:none;
@@ -52,6 +52,23 @@ div {
     background:#b0b6bb;	
 }
 
+.row {
+    position:relative;
+    top: 100px;
+    left: 55px;
+    right: -400px;
+    bottom: -191px;
+}
+
+.single-element{
+    width: 30%;
+    position:relative;
+    top: 100px;
+    left: 55px;
+    right: -400px;
+    bottom: -191px;
+}
+
 .table1  {
     position: fixed;
     top: 191px;
@@ -59,15 +76,6 @@ div {
     right: -400px;
     bottom: -191px;
 }
-
-.Bubble {
-    position: relative;
-    top: 191px;
-    left: 55px;
-    right: -400px;
-    bottom: -191px;
-}
-
 
 footer {
     color: white;
