@@ -4,7 +4,7 @@
     height: 100%;
 
     background-size: 1325px 350px;
-    background-position: center;
+    background-position: 10px 10px;
     background-repeat: no-repeat;
 }
 
@@ -16,7 +16,7 @@ h1 {
 }
 
 nav {
-    margin: 40px;
+    margin: -43px;
     text-align: justify;
 }
 
