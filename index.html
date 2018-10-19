@@ -2,11 +2,12 @@
 <html>
 
     <head>
-        <title> Магазин за обувки Мартини </title>
         <meta charset="UTF-8">
+        <title> Магазин за обувки Мартини </title>
         <link href="css/resetcss.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/stylesheet.css">
-        <link href="css/Femalecss.css" rel="stylesheet" type="text/css"/>
+        <link href="css/female.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" type="image/png" href="Pictures/icons8-iphone-x-50.png"/>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
@@ -17,16 +18,43 @@
         <nav>
             <h1> Добре дошли в магазин Мартини </h1>
                 <ul>
-                    <li id="female-link" class="button"><a href="#"> Женски обувки </a></li>
-                    <li class="button"><a href="ManShop.html"> Мъжки обувки </a></li>
-                    <li class="button"><a href="Women's_Purses.html"> Дамски чанти </a></li>
-                    <li class="button"><a href="ForUs.html"> За Нас </a></li>
-                    <li class="button"><a href="Contacts.html"> Контакти </a></li>
+                    <li class="button"><a href="index.html"> Начало </a></li>
+                    <li id="female-link" class="button"><a href="#"> Дамски обувки </a></li>
+                    <li id="male-link" class="button"><a href="#"> Мъжки обувки </a></li>
+                    <li id="womensbags-link" class="button"><a href="#"> Дамски чанти </a></li>
+                    <li class="button"><a href="Forum.html"> Форум </a></li>
+                    <li id="contacts-link" class="button"><a href="Contacts.html"> Контакти </a></li>
                 </ul>
         </nav>
       
         <div class="container">
           
+        </div>
+        
+        <div class="container2">
+            <h3> Направете си акаунт, за да използвате услугите ни: </h3>
+        <form method="post" action="account/name.php">
+            
+            <br/>
+            Име на акаунта: 
+            <input type="text" name="accountName" maxlength="12">
+            <br/><br/>
+            Имейл адрес: <input type="text" name="emailAdr" maxlength="12">
+            <br/><br/>
+            Парола: <input type="password" name="password" maxlength="8">
+            <br/><br/>
+            Съгласявам се с правилата: <input type="checkbox" name="checkbox">
+            <br/><br/>
+            Пол:
+            <br/>
+            Мъж: <input type="radio" name="choice" value="мъж" checked="checked">
+            Жена: <input type="radio" name="choice" value="жена" checked="checked">
+            <br/>
+            <textarea name="comentar" rows="5" cols="15">От къде разбрахте за сайта? ... </textarea>
+            <br/>
+            <input type="submit" name="button" value="Изпрати">
+            <br/>
+        </form>
         </div>
 
         
