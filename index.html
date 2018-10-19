@@ -36,12 +36,14 @@
         <form method="post" action="account/name.php">
             
             <br/>
-            Име на акаунта: 
+            <label for="acc_name">Име на акаунта:</label>
             <input type="text" name="accountName" maxlength="12">
             <br/><br/>
-            Имейл адрес: <input type="text" name="emailAdr" maxlength="12">
+            <label for="acc_name">Имейл адрес:</label>
+            <input type="text" name="emailAdr" maxlength="12">
             <br/><br/>
-            Парола: <input type="password" name="password" maxlength="8">
+            <label for="acc_name">Парола:</label>
+            <input type="password" name="password" maxlength="8">
             <br/><br/>
             Съгласявам се с правилата: <input type="checkbox" name="checkbox">
             <br/><br/>
@@ -50,7 +52,7 @@
             Мъж: <input type="radio" name="choice" value="мъж" checked="checked">
             Жена: <input type="radio" name="choice" value="жена" checked="checked">
             <br/>
-            <textarea name="comentar" rows="5" cols="15">От къде разбрахте за сайта? ... </textarea>
+            <textarea name="comentar" rows="5" cols="15" placeholder="От къде разбрахте за сайта? ... "> </textarea>
             <br/>
             <input type="submit" name="button" value="Изпрати">
             <br/>
