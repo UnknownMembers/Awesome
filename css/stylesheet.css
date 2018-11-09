@@ -1,3 +1,7 @@
+body {
+    background-image: url(../Pictures/backgroundd.png);
+}
+
 .h11 {
     font-weight: bold;
     color:  #ff9900;
@@ -18,6 +22,8 @@ nav {
     text-align: justify;
     height: 355px;  
     padding: 20px;
+    border: 2px solid rgb(255,185,079);
+    border-radius: 12px;
 }
 ul{
     display: flex;
@@ -121,7 +127,7 @@ form {
 }
 
 .info {
-    margin-right: 50px;
+    margin-right: 43px;
     color: black;
     position: relative;
     top: -100%;
@@ -129,5 +135,5 @@ form {
 }
 
 .info:hover {
-    background-color: white;
+    color: rgb(117,239,255);
 }
