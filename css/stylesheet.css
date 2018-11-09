@@ -113,13 +113,19 @@ form {
 }
 
 .aboutus {
-    height: 50px;
-    margin-left: 700px;
+    height: 27px;
+}
+
+.topCanvas {
+    width: 100%;
 }
 
 .info {
     margin-right: 50px;
     color: black;
+    position: relative;
+    top: -100%;
+    left: 65%;
 }
 
 .info:hover {
