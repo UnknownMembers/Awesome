@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> Акаунт </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="../css/resetcss.css" rel="stylesheet" type="text/css"/>
+         <link href="../css/account.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+              integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+              crossorigin="anonymous"/>
+        
+         <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOrr6gUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADt7+wD5+nmCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOXm4ggAAAAAAAAAAAAAAADk5eIGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIN6T/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEUiP/R1Ik/0hTJf9KVSf/RFEj/4N6T/+Dek//pqKTXgAAAABEUSP/AAAAAAAAAAAAAAAAAAAAAAAAAABEUSP/RlEj/0ZRI/9KVSf/S1Yo/01XKf9QVSj/dG5B/6aik14AAAAARFEj/wAAAAAAAAAAAAAAAAAAAABEUiH/RFEj/0dSJP9JVCX/SlQp/01WLP9PWC3/g3pP/4N6T/8AAAAAAAAAAEFQI/8AAAAAAAAAAAAAAABDUCL/Q1Ai/0hVKf9EUSP/RFEj/4N6T/+Dek//AAAAAAAAAAAAAAAAAAAAAAAAAABCUCT/RFIs4gAAAABIUiT/RFEj/0hVJ/+Dek//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1Im/0VVJv9CUiP/R1Qm/0dTJ/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARFMo/0NTJP9DUyT/Q1Mk/0ZVIf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEZRMddDUib/QlEl/0NRJ/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARFIo/19rSssAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA//8AAL8BAAC+AQAAvAEAALgPAACQ/wAAg/8AAAf/AAAP/wAAn/8AAP//AAD//wAA//8AAA==" rel="icon" type="image/x-icon" />
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>         
+        <script src="../Javascript/MyScript.js"></script>
+    </head>
+   <body id="LoginForm">
+<div class="container">
+<h1 class="form-heading">Регистрация на магазин Мартини</h1>
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <h2>Регистрация</h2>
+   <p>Моля въведете потребителските данни</p>
+   </div>
+    <form>
+                <div class="form-group">
+                    <label for="reg-email">Имейл адрес:</label>
+                    <input type="email" id="reg-email" class="form-control" aria-describedby="emailHelp" placeholder="Въведете имейл">
+                    <small id="emailHelp" class="rules">Никога няма да споделим имейла ви с някого.</small>
+                </div>
+                <div class="form-group">
+                    <label for="reg-username">Име на потребителя:</label>
+                    <input type="text" id="reg-username" class="form-control" placeholder="Въведете потребител">
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Парола:</label>
+                    <input type="password" id="reg-password" class="form-control" placeholder="Въведете парола">
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Потвърди парола:</label>
+                    <input type="password" id="reg-confirm" class="form-control" placeholder="Потвърдете парола">
+                </div>
+                <div class="form-group">
+                    <label for="reg-day">Ден:</label>
+                    <select  id="reg-day" class="form-control">
+                        <option selected>Избор...</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <label for="reg-month">Месец:</label>
+                    <select id="reg-month" class="form-control">
+                        <option selected>Избор...</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <label for="reg-year">Година:</label>
+                    <input type="text" id="reg-year" class="form-control" placeholder="Въведете година &QUOT; 1998 &QUOT;">
+                </div>
+                <div class="form-check">
+                    <small class="rules">Приемам условията за ползване и декларацията за поверителност на Martini и ако съм под 18 години, родителят / настойникът ми е приел от мое име.</small>
+                    <br/>
+                    <input type="checkbox" id="reg-checkbox" class="form-check-input">
+                    <label class="form-check-label" for="reg-checkbox">Приемам условията</label>
+                </div>
+                <button type="submit" id="register" class="btn btn-primary">Регистрация</button>
+            </form>
+</div></div></div>
+
+</body>
+</html>
