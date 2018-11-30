@@ -13,7 +13,7 @@ and open the template in the editor.
     margin-top: 20px;
     position: relative;
     width: 70%;
-    height: 100%;
+    height: 70%;
     padding-bottom: 40%;
     background: #4c4c4c;
     border: 2px solid #2c2c2c;
@@ -22,7 +22,7 @@ and open the template in the editor.
 .slide-img {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 70%;
 }
 
 .slide-img img{

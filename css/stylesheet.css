@@ -11,6 +11,11 @@ body {
     bottom: 20%;
 }
 
+.h11:hover {
+    text-decoration: none;
+    color: darkorange;
+}
+
 .logo {
     margin-left: 15%;
 }
@@ -29,6 +34,7 @@ nav {
     padding: 20px;
     border: 2px solid rgb(255,185,079);
     border-radius: 12px;
+    margin-bottom: 100px;
 }
 ul{
     display: flex;
@@ -45,8 +51,7 @@ a{
 .button{
     list-style: none;
     background-color: rgb(255,185,079);
-    color: black;
-    text-decoration:none;
+    color: red;
     box-shadow: 6px 7px 9px #69747b;
     padding: 9px 20px;
     margin: 4px 10px;
@@ -55,10 +60,15 @@ a{
     border-radius: 10px;
 }
 .button:hover{
-    background:darkorange;	
+    background:darkorange;
 }
 .button:active {
     background: #777777;	
+}
+
+.buttonLink:hover {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
@@ -104,8 +114,8 @@ form {
     width: 100%;
     padding-right: 30px;
     padding-left: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     border-radius: 12px;
 }
@@ -147,10 +157,14 @@ form {
     width: 50%;
     height: auto;
     text-align: center;
-/*    color: #777777;*/
+    /*    color: #777777;*/
     background: white;
     color: #777777;
     font-style: Italic;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+h2 {
+    -moz-text-decoration-line: overline;
 }
