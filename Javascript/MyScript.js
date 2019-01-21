@@ -18,7 +18,7 @@ $(document).ready(function () {
 });
 
 function openShoe(event) {
-
+    var shoeData = {}
     var viewButton = event.target;
     var divOrder = viewButton.parentNode;
     // sibling can be used here 
@@ -30,22 +30,29 @@ function openShoe(event) {
        var currentElement = childrenArray[i];
 //proverka dali e kartinka, zashtoto tam ne ni trqbva innerhtml, ami src-to (linka)
         if (currentElement.tagName === "IMG") {
-           var imgSrc = currentElement.src;
+            shoeData.imgSrc = currentElement.src;
            
        }
         //ako e paragraph, trqbva ni cenata vytre
         else if (currentElement.tagName === "P") {
-           var price = currentElement.innerHTML;
-//         console.log(currentElement);
-//console.log(currentElement.innerHtml);  
+           shoeData.price = currentElement.innerHTML;  
         }
         else if (currentElement.tagName === "H3")
-           var title = currentElement.innerHTML;
+           shoeData.title = currentElement.innerHTML;
         else
             continue;
-         console.log(currentElement.tagName);
+         //console.log(currentElement.tagName);
     }
-  console.table([imgSrc, price, title]);
-    
+  //console.table([imgSrc, price, title]);
+  $('body').load("shoe-template.html", function(){
+      //console.log(shoeData);
+      var shoeContainer = $('.single-shoe');
+      shoeContainer.children("H3").text(shoeData.title);
+      shoeContainer.children('IMG')[0].src = shoeData.imgSrc   
+      shoeContainer.children('P').text(shoeData.price);
+      //shoeContainer.children('IMG').attr('SRC', shoeData.src);
+      //shoeContainer.appendChild('div').text("Toku shto syzdadoh tozi div")
+      //samo che vyv text podavash texta koito si vzel ot bazata si danni ili ot faila ili kydeto ti e informaciqta za obuvkata
+  });
 }
 
